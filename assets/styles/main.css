@@ -1,0 +1,59 @@
+main {
+	background-color: #E4FFFC;
+}
+p {
+	margin: 5px;
+}
+.article {
+	max-width: 400px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	margin: 10px;
+}
+.article:hover {
+	background-color: #ffffe6;
+}
+.article-image-wrp {
+	max-width: 396px;
+	max-height: 200px;
+	transition: all 1s;
+	overflow: hidden;
+}
+.article-image {
+	width: 100%;
+	transition: all 1s;
+}
+.article-image:hover {
+	transform: scale(1.1);
+}
+.article-description {
+	padding: 5px;
+}
+.article {
+	border: 2px solid #ffd750;
+	text-align: center;
+}
+.article-heading {
+	font-size: 1.5rem;
+}
+.article-comment {
+	text-align: left;
+}
+.article-comment > img {
+	width: 20px;
+	height: 20px;
+}
+@media all and (max-width: 767px) {
+	.article {
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.article-image {
+		max-width: 100%;
+	}
+	.logo {
+	margin-top: 8px;
+	}
+}

@@ -1,0 +1,24 @@
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo-footer > img{
+	min-height: 50px;
+	max-height: 100px;
+}
+.email, .rights {
+	align-self: center;
+}
+.rights {
+	padding-right: 7px;
+}
+@media all and (max-width: 767px) {
+	footer {
+		flex-direction: column;
+		padding-bottom: 7px;
+	}
+	.logo-footer {
+		align-self: center;
+	}
+}

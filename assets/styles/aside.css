@@ -1,0 +1,117 @@
+aside {
+	background-color: #C5EAE5;
+}
+.aside-small {
+	padding-top: 15px;
+}
+.about-author p, .about-author {
+	padding: 5px;
+}
+.author-name {
+	font-weight: bold;
+}
+.author-picture {
+	max-width: 200px;
+	opacity: 0.9;
+	border-radius: 70px 10px 70px;
+}
+.author-picture:hover {
+	opacity: 1;
+}
+.aside-big > .search-socials {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px;
+}
+.subscribe {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.subscribe input, .subscribe-button {
+	font-size: 1.2rem;
+	margin: 0 auto;
+}
+.subscribe-button {
+	max-width: 70%;
+}
+.subscribe input {
+	height: 2.6rem;
+}
+.subscribe input:focus {
+	border: 1px solid green;
+}
+.btn {
+	background-color: #8CD6CC;
+	transition: all 0.5s;
+	outline: none;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.btn:hover {
+	transform: scale(1.05);
+}
+.btn:focus {
+	background-color: #76BFB5;
+}
+.search {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 15px;
+}
+.search input {
+	height: 2rem;
+}
+.search button {
+	padding: 7px 20px;
+	margin-top: 0;
+}
+.tags {
+	text-align: center;
+}
+.comments-block {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.comments-block .comment {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+}
+.comments-block .user-picture {
+	height: 100%;
+	width: 60px;
+}
+.comment {
+	margin-bottom: 10px;
+	max-width: 40vw;
+	margin: 0 auto;
+}
+.comment > div {
+	padding-left: 10px;
+}
+.comment .name {
+	font-weight: 700;
+}
+.comment-time {
+	color: grey;
+	font-size: 0.8rem;
+}
+.comment-text > img {
+	width: 20px;
+	height: 20px;
+}
+@media all and (max-width: 767px) {
+	.social-icon-aside {
+		display: inline-block;
+	}
+	.subscribe-button {
+		height: 3.2rem;
+	}
+	.comment {
+		max-width: 80vw;
+}
