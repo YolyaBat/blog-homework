@@ -8,6 +8,12 @@ header {
 }
 .logo {
 	margin-top: 7px;
+	animation: spin 2s linear;
+}
+@keyframes spin { 
+	100% { 
+		transform:rotate(-360deg); 
+	} 
 }
 .logo-image {
 	min-height: 100px;
@@ -169,7 +175,7 @@ nav li a {
 		width: auto;
 	}
 	.search-button {
-		margin-right: 0;
+		margin-right: 15px;
 	}
 	.social-icon {
 		display: none;
