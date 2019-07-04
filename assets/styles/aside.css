@@ -61,7 +61,9 @@ aside {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	padding-top: 15px;
+	margin-top: 15px;
+	padding: 15px 0;
+	background-color: #97ACBE;
 }
 .search input {
 	height: 2rem;
