@@ -39,6 +39,7 @@ aside {
 }
 .subscribe input {
 	height: 2.6rem;
+	margin-bottom: 10px;
 }
 .subscribe input:focus {
 	border: 1px solid green;
@@ -47,7 +48,6 @@ aside {
 	background-color: #8CD6CC;
 	transition: all 0.5s;
 	outline: none;
-	margin-top: 10px;
 	border-radius: 5px;
 	box-shadow: 4px 6px 8px -1px rgba(127,147,181,0.8);
 }
@@ -72,6 +72,7 @@ aside {
 }
 .tags {
 	text-align: center;
+	margin-top: 15px;
 }
 .comments-block {
 	margin-top: 20px;
