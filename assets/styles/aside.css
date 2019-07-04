@@ -78,7 +78,6 @@ aside {
 }
 .comments-block {
 	margin-top: 20px;
-	padding-bottom: 20px;
 }
 .comments-block .comment {
 	border: 1px solid black;
@@ -87,13 +86,13 @@ aside {
 	justify-content: start;
 }
 .comments-block .user-picture {
-	height: 100%;
+	max-height: 70px;
 	width: 60px;
 }
 .comment {
-	margin-bottom: 10px;
 	max-width: 40vw;
 	margin: 0 auto;
+	margin-bottom: 15px;
 }
 .comment > div {
 	padding-left: 10px;
