@@ -102,6 +102,13 @@ aside {
 	color: grey;
 	font-size: 0.8rem;
 }
+.comment-text {
+	height: 2em;
+	max-width: 15vw;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .comment-text > img {
 	width: 20px;
 	height: 20px;
@@ -118,4 +125,8 @@ aside {
 	}
 	.comment {
 		max-width: 80vw;
+	}
+	.comment-text {
+		max-width: 50vw;
+	}
 }
