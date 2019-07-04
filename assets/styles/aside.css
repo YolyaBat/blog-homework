@@ -48,7 +48,8 @@ aside {
 	transition: all 0.5s;
 	outline: none;
 	margin-top: 10px;
-	border-radius: 10px;
+	border-radius: 5px;
+	box-shadow: 4px 6px 8px -1px rgba(127,147,181,0.8);
 }
 .btn:hover {
 	transform: scale(1.05);
@@ -104,6 +105,9 @@ aside {
 .comment-text > img {
 	width: 20px;
 	height: 20px;
+}
+.tags button {
+	background-color: #78ceff;
 }
 @media all and (max-width: 767px) {
 	.social-icon-aside {
