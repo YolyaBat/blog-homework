@@ -59,13 +59,6 @@ nav li a {
 	display: inline-block;
 	max-height: 40px;
 }
-/* #menu {
-	opacity: 0;
-}
-#menuToggle input:focus
-#menu {
-	opacity: 1;
-} */
 #menuToggle {
   display: block;
   position: relative;
